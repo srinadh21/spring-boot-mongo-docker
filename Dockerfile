@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine /bin/sh
+FROM openjdk:11-alpine
 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
